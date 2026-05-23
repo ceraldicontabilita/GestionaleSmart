@@ -659,7 +659,7 @@ hr{border:none;border-top:1px solid var(--border);margin:12px 0}
 <script>
 const PIN_HASH = '72e0837603bda6733feca2c118417d031d2df2c9574373df26c76c28a2c9c0b4';
 const LS = { token:'cm_token', api:'cm_api', attempts:'cm_pin_att', lockUntil:'cm_pin_lock', anno:'cm_anno' };
-let API_BASE = localStorage.getItem(LS.api) || 'https://impresasemplice.online';
+let API_BASE = localStorage.getItem(LS.api) || 'https://gestionale-ceraldi.onrender.com';
 let TOKEN = localStorage.getItem(LS.token) || '';
 let ANNO = parseInt(localStorage.getItem(LS.anno)||'') || new Date().getFullYear();
 let pinBuffer = '';
